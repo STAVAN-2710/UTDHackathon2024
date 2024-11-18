@@ -1,0 +1,394 @@
+{
+    "POL001": {
+        "policy_number": "POL001",
+        "policy_type": "Premium Health Insurance",
+        "policyholder": {
+            "name": "John Smith",
+            "age": 35,
+            "occupation": "Teacher",
+            "address": "123 Main St, Austin, TX 78701",
+            "contact": "512-555-0123",
+            "email": "john.smith@email.com"
+        },
+        "status": "Active",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31",
+        "coverage_limit": 100000.00,
+        "remaining_coverage": 95000.00,
+        "deductible": 1000.00,
+        "monthly_premium": 450.00,
+        "coverage_details": {
+            "emergency_care": {
+                "covered": true,
+                "coverage_percentage": 90,
+                "deductible_applies": true,
+                "prior_authorization": false,
+                "coverage_limit": 50000.00
+            },
+            "preventive_care": {
+                "covered": true,
+                "coverage_percentage": 100,
+                "deductible_applies": false,
+                "prior_authorization": false,
+                "annual_limit": 2000.00
+            },
+            "prescription_drugs": {
+                "covered": true,
+                "coverage_percentage": 80,
+                "deductible_applies": true,
+                "formulary_type": "Tier 3",
+                "monthly_limit": 500.00
+            },
+            "specialist_visits": {
+                "covered": true,
+                "coverage_percentage": 80,
+                "deductible_applies": true,
+                "prior_authorization": true,
+                "annual_limit": 5000.00
+            },
+            "hospital_stays": {
+                "covered": true,
+                "coverage_percentage": 85,
+                "deductible_applies": true,
+                "prior_authorization": true,
+                "daily_limit": 2000.00
+            }
+        },
+        "network_details": {
+            "network_type": "PPO",
+            "in_network_deductible": 1000.00,
+            "out_network_deductible": 2000.00,
+            "in_network_coverage": "80%",
+            "out_network_coverage": "60%"
+        },
+        "exclusions": [
+            "Cosmetic procedures",
+            "Experimental treatments",
+            "Pre-existing conditions (first 6 months)",
+            "Non-medical services",
+            "Elective procedures"
+        ],
+        "waiting_periods": {
+            "elective_surgery": 60,
+            "maternity": 270,
+            "dental": 90,
+            "pre_existing_conditions": 180
+        },
+        "documentation_requirements": {
+            "emergency_claims": [
+                "Hospital admission report",
+                "Medical bills",
+                "Treatment records",
+                "Physician statements"
+            ],
+            "prescription_claims": [
+                "Prescription copy",
+                "Pharmacy receipt",
+                "Doctor's prescription note"
+            ],
+            "specialist_claims": [
+                "Referral letter",
+                "Specialist report",
+                "Treatment plan",
+                "Medical bills"
+            ],
+            "preventive_care_claims": [
+                "Provider report",
+                "Preventive care schedule",
+                "Medical bills"
+            ]
+        }
+    },
+    "POL002": {
+        "policy_number": "POL002",
+        "policy_type": "Standard Health Insurance",
+        "policyholder": {
+            "name": "Jane Wilson",
+            "age": 28,
+            "occupation": "Software Engineer",
+            "address": "456 Oak Ave, Dallas, TX 75201",
+            "contact": "214-555-0456",
+            "email": "jane.wilson@email.com"
+        },
+        "status": "Active",
+        "effective_date": "2024-02-01",
+        "expiration_date": "2025-01-31",
+        "coverage_limit": 75000.00,
+        "remaining_coverage": 75000.00,
+        "deductible": 2000.00,
+        "monthly_premium": 350.00,
+        "coverage_details": {
+            "emergency_care": {
+                "covered": true,
+                "coverage_percentage": 85,
+                "deductible_applies": true,
+                "prior_authorization": false,
+                "coverage_limit": 40000.00
+            },
+            "preventive_care": {
+                "covered": true,
+                "coverage_percentage": 100,
+                "deductible_applies": false,
+                "prior_authorization": false,
+                "annual_limit": 1500.00
+            },
+            "prescription_drugs": {
+                "covered": true,
+                "coverage_percentage": 75,
+                "deductible_applies": true,
+                "formulary_type": "Tier 2",
+                "monthly_limit": 400.00
+            },
+            "specialist_visits": {
+                "covered": true,
+                "coverage_percentage": 75,
+                "deductible_applies": true,
+                "prior_authorization": true,
+                "annual_limit": 4000.00
+            }
+        },
+        "network_details": {
+            "network_type": "HMO",
+            "in_network_deductible": 2000.00,
+            "out_network_deductible": 4000.00,
+            "in_network_coverage": "75%",
+            "out_network_coverage": "50%"
+        },
+        "exclusions": [
+            "Cosmetic procedures",
+            "Experimental treatments",
+            "Non-medical services"
+        ],
+        "waiting_periods": {
+            "elective_surgery": 90,
+            "maternity": 300,
+            "dental": 120,
+            "pre_existing_conditions": 240
+        }
+    },
+    "POL003": {
+        "policy_number": "POL003",
+        "policy_type": "Family Health Insurance",
+        "policyholder": {
+            "name": "Maria Rodriguez",
+            "age": 42,
+            "occupation": "Nurse",
+            "address": "789 Pine St, Houston, TX 77001",
+            "contact": "713-555-0789",
+            "email": "maria.rodriguez@email.com"
+        },
+        "dependents": [
+            {
+                "name": "Carlos Rodriguez",
+                "relationship": "Spouse",
+                "age": 45
+            },
+            {
+                "name": "Ana Rodriguez",
+                "relationship": "Daughter",
+                "age": 12
+            }
+        ],
+        "status": "Active",
+        "effective_date": "2024-01-15",
+        "expiration_date": "2024-12-31",
+        "coverage_limit": 150000.00,
+        "remaining_coverage": 150000.00,
+        "deductible": 3000.00,
+        "monthly_premium": 850.00,
+        "coverage_details": {
+            "emergency_care": {
+                "covered": true,
+                "coverage_percentage": 90,
+                "deductible_applies": true,
+                "prior_authorization": false,
+                "coverage_limit": 75000.00
+            },
+            "preventive_care": {
+                "covered": true,
+                "coverage_percentage": 100,
+                "deductible_applies": false,
+                "prior_authorization": false,
+                "annual_limit": 3000.00
+            },
+            "prescription_drugs": {
+                "covered": true,
+                "coverage_percentage": 85,
+                "deductible_applies": true,
+                "formulary_type": "Tier 3",
+                "monthly_limit": 800.00
+            },
+            "specialist_visits": {
+                "covered": true,
+                "coverage_percentage": 85,
+                "deductible_applies": true,
+                "prior_authorization": true,
+                "annual_limit": 6000.00
+            },
+            "pediatric_care": {
+                "covered": true,
+                "coverage_percentage": 100,
+                "deductible_applies": false,
+                "prior_authorization": false,
+                "annual_limit": 2500.00
+            }
+        },
+        "network_details": {
+            "network_type": "PPO",
+            "in_network_deductible": 3000.00,
+            "out_network_deductible": 6000.00,
+            "in_network_coverage": "85%",
+            "out_network_coverage": "60%"
+        },
+        "additional_benefits": {
+            "telemedicine": {
+                "covered": true,
+                "copay": 20.00,
+                "annual_limit": "Unlimited"
+            },
+            "mental_health": {
+                "covered": true,
+                "coverage_percentage": 80,
+                "annual_limit": 3000.00
+            },
+            "maternity": {
+                "covered": true,
+                "coverage_percentage": 90,
+                "deductible_applies": true
+            }
+        }
+    },
+    "POL004": {
+        "policy_number": "POL004",
+        "policy_type": "Senior Health Insurance",
+        "policyholder": {
+            "name": "Robert Johnson",
+            "age": 67,
+            "occupation": "Retired",
+            "address": "321 Elm St, San Antonio, TX 78205",
+            "contact": "210-555-0321",
+            "email": "robert.johnson@email.com"
+        },
+        "status": "Active",
+        "effective_date": "2024-03-01",
+        "expiration_date": "2025-02-28",
+        "coverage_limit": 125000.00,
+        "remaining_coverage": 125000.00,
+        "deductible": 1500.00,
+        "monthly_premium": 550.00,
+        "coverage_details": {
+            "emergency_care": {
+                "covered": true,
+                "coverage_percentage": 95,
+                "deductible_applies": true,
+                "prior_authorization": false,
+                "coverage_limit": 60000.00
+            },
+            "preventive_care": {
+                "covered": true,
+                "coverage_percentage": 100,
+                "deductible_applies": false,
+                "prior_authorization": false,
+                "annual_limit": 2500.00
+            },
+            "prescription_drugs": {
+                "covered": true,
+                "coverage_percentage": 90,
+                "deductible_applies": true,
+                "formulary_type": "Senior Plus",
+                "monthly_limit": 600.00
+            },
+            "specialist_visits": {
+                "covered": true,
+                "coverage_percentage": 90,
+                "deductible_applies": true,
+                "prior_authorization": true,
+                "annual_limit": 5500.00
+            }
+        },
+        "additional_benefits": {
+            "medicare_supplement": {
+                "covered": true,
+                "coverage_type": "Plan G",
+                "coordination_of_benefits": true
+            },
+            "home_health_care": {
+                "covered": true,
+                "coverage_percentage": 85,
+                "annual_limit": 10000.00
+            },
+            "durable_medical_equipment": {
+                "covered": true,
+                "coverage_percentage": 80,
+                "prior_authorization": true
+            }
+        }
+    },
+    "POL005": {
+        "policy_number": "POL005",
+        "policy_type": "Student Health Insurance",
+        "policyholder": {
+            "name": "Emily Chen",
+            "age": 22,
+            "occupation": "Student",
+            "address": "567 University Ave, Austin, TX 78705",
+            "contact": "512-555-0567",
+            "email": "emily.chen@email.com"
+        },
+        "status": "Active",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31",
+        "coverage_limit": 50000.00,
+        "remaining_coverage": 50000.00,
+        "deductible": 500.00,
+        "monthly_premium": 175.00,
+        "coverage_details": {
+            "emergency_care": {
+                "covered": true,
+                "coverage_percentage": 80,
+                "deductible_applies": true,
+                "prior_authorization": false,
+                "coverage_limit": 25000.00
+            },
+            "preventive_care": {
+                "covered": true,
+                "coverage_percentage": 100,
+                "deductible_applies": false,
+                "prior_authorization": false,
+                "annual_limit": 1000.00
+            },
+            "prescription_drugs": {
+                "covered": true,
+                "coverage_percentage": 70,
+                "deductible_applies": true,
+                "formulary_type": "Student Basic",
+                "monthly_limit": 300.00
+            },
+            "mental_health": {
+                "covered": true,
+                "coverage_percentage": 80,
+                "deductible_applies": true,
+                "annual_limit": 2000.00
+            }
+        },
+        "network_details": {
+            "network_type": "Student Health Network",
+            "in_network_deductible": 500.00,
+            "out_network_deductible": 1000.00,
+            "in_network_coverage": "80%",
+            "out_network_coverage": "50%"
+        },
+        "additional_benefits": {
+            "telemedicine": {
+                "covered": true,
+                "copay": 10.00,
+                "annual_limit": "Unlimited"
+            },
+            "sports_injuries": {
+                "covered": true,
+                "coverage_percentage": 80,
+                "annual_limit": 5000.00
+            }
+        }
+    }
+}
