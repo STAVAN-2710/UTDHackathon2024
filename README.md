@@ -115,4 +115,4 @@ We welcome contributions! Please follow these steps:
 
 ---
 ## Demo Link
-https://xtended-meridian-rag.streamlit.app/
+https://xtended-meridian.streamlit.app/
